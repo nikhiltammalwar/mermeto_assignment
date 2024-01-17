@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/11d662cdb2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="gridStyle.css">
+    <link rel="stylesheet" href="index.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Example</title>
+</head>
+<body>
+    <h2 style="display: flex;justify-content: center;">PLP</h2>
+    <br>
+    <div class="container-top" style="display: flex;justify-content: center;">
+        <input type="search" class="search-box" placeholder="type something to search" oninput="filterProducts(this.value,highlightSearchTerm)
+        " >
+        <span>
+            <i class="fa-solid fa-list"></i>
+            <i class="fa-solid fa-table"></i>
+        </span>
+     </div>
+    <div class="card-center" style="display: flex;justify-content: center;">
+
+        <ul id="card-container">
+            
+        </ul>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

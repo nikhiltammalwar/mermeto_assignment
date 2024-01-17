@@ -1,0 +1,76 @@
+.search-box{
+    display: flex;
+    width: 290px;
+    height:25px;
+    margin-bottom: 30px;
+}
+.card-center{
+    border:1px solid rgb(188, 184, 184);
+    border-radius: 5px 5px;
+    padding:5px;
+    margin: auto;
+    width: 380px;
+}
+
+
+
+
+.card {
+    border: 1px solid #e7e1e1;
+    border-radius: 5px 4px;
+    padding: 10px;
+    margin: 5px;
+    width: 350px;
+     /* Adjust width as needed */
+    height: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 3px 3px 0px #ede5e5;
+    
+}
+.card img {
+    width: 40%; /* Adjust image width as needed */
+    height: auto;
+    margin-right: 10px; /* Add margin between image and info */
+}
+.badge {
+    background-color: #60ea74; /* Example background color for badge */
+    color: #ffffff; /* Example text color for badge */
+    padding: 5px;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 5px 0;
+
+
+}
+
+.content-container{
+    flex-grow: 1;
+    text-align:left;
+    padding-top:7px;
+}
+
+
+h4{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+
+}
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     /* Adjust as needed */
+
+}
